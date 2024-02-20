@@ -10,7 +10,7 @@ idf_component_register(
     INCLUDE_DIRS "include"
     PRIV_INCLUDE_DIRS "src"
                       "heatshrink"
-    REQUIRES "spi_flash"
+    REQUIRES "spi_flash" "vfs" "esp_partition"
 )
 
 idf_build_get_property(python PYTHON)

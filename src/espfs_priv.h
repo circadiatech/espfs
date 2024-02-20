@@ -3,6 +3,7 @@
 #include <stddef.h>
 #include "esp_partition.h"
 #include "espfsformat.h"
+#include "esp_spi_flash.h"
 
 struct EspFs {
 	const void *memAddr;
